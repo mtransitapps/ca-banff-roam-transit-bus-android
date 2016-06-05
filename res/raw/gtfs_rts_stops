@@ -3,12 +3,12 @@
 4,'','Fox St West Side',51.183153,-115.563396
 5,'','Rabbit St West Side',51.181943,-115.566994
 6,'','Elk St',51.17914,-115.570702
-7,'','Caibou St West Side',51.176131,-115.571058
+7,'','Caribou St West Side',51.176131,-115.571058
 8,'','Bow River Bridge West Side',51.173916,-115.571309
 9,'','Glacier Dr',51.167666,-115.574981
 10,'','Middle Spgs Dr',51.166593,-115.577933
 11,'','Banff Upper Hot Spgs',51.149534,-115.559137
-12,'','Banff Gondola',51.148083,-115.556124
+12,'','Banff Train Sta',51.18156,-115.576335
 13,'','Rimrock Resort Hotel',51.151653,-115.56002
 14,'','Vly Vw',51.16723,-115.57535
 15,'','YWCA',51.171796,-115.569765
@@ -19,6 +19,8 @@
 20,'','Fox St East Side',51.183021,-115.562875
 21,'','Antelope Ln',51.184122,-115.559678
 22,'','Inns Of Banff',51.185157,-115.556393
+23,'','Banff Train Sta Elk St',51.181213,-115.575298
+24,'','Hawk Ave Industrial',51.193178,-115.553715
 30,'','Tunnel Mtn Campground',51.188935,-115.541962
 31,'','Hidden Rdg Resort',51.187316,-115.546221
 32,'','Tunnel Mtn Resort',51.18468,-115.550078
