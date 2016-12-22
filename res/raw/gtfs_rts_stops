@@ -21,8 +21,6 @@
 22,'','Inns Of Banff',51.185157,-115.556393
 23,'','Banff Train Sta Elk St',51.181213,-115.575298
 24,'','Hawk Ave Industrial',51.193178,-115.553715
-30,'','Tunnel Mtn Campground',51.188935,-115.541962
-31,'','Hidden Rdg Resort',51.187316,-115.546221
 32,'','Tunnel Mtn Resort',51.18468,-115.550078
 33,'','Wolf & Beaver',51.17846,-115.568822
 36,'','Spray Ave',51.170678,-115.569287
@@ -30,6 +28,11 @@
 38,'','Rundle Ave',51.167723,-115.566234
 42,'','Otter St',51.178432,-115.565751
 43,'','Douglas Fir Resort',51.184596,-115.549544
+44,'','Tunnel Mtn Vlg I Powerline',51.194793,-115.522654
+45,'','Tunnel Mtn Vlg I Registration',51.191001,-115.520052
+46,'','Tunnel Mtn Trailer Court Campground',51.18985,-115.531932
+47,'','Mt Rundle Lookout',51.189857,-115.530507
+48,'','Moose St',51.180335,-115.569533
 54,'','Luxton Museum North',51.17181,-115.57329
 55,'','Recreation Grounds Entrance',51.17131,-115.58146
 56,'','Cave & Basin',51.16987,-115.58905
