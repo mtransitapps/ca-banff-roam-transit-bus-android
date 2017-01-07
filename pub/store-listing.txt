@@ -5,7 +5,7 @@ Banff Roam Transit Bus for MonTransit.
 Schedule…
 ----------
 What's new in this version?:
-Schedule from January 1, 2016 to December 31, 2016.
+Schedule from January 1, 2016 to December 31, 2017.
 ----------
 Full description:
 This app adds Banff Roam Transit buses information to MonTransit.
