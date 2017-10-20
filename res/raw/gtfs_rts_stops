@@ -2,9 +2,9 @@
 3,'','Rotary Pk',51.184506,-115.559268
 4,'','Fox St West Side',51.183153,-115.563396
 5,'','Rabbit St West Side',51.181943,-115.566994
-6,'','Wolf St West Side',51.17796,-115.57095
-7,'','Caribou St West Side',51.176131,-115.571058
-8,'','Bow River Bridge West Side',51.173916,-115.571309
+6,'','Downtown Wolf St West',51.17796,-115.57095
+7,'','Downtown Caribou West',51.176131,-115.571058
+8,'','Banff Pk Museum',51.173916,-115.571309
 9,'','Glacier Dr',51.167666,-115.574981
 10,'','Middle Spgs Dr',51.166593,-115.577933
 11,'','Banff Upper Hot Spgs',51.149534,-115.559137
@@ -12,8 +12,8 @@
 13,'','Rimrock Resort Hotel',51.151653,-115.56002
 14,'','Vly Vw',51.16723,-115.57535
 15,'','YWCA',51.171796,-115.569765
-16,'','Buffalo St',51.174872,-115.570888
-17,'','Caribou St East Side',51.177067,-115.570707
+16,'','Downtoan Buffalo East',51.174872,-115.570888
+17,'','Downtown Caribou East Side',51.177067,-115.570707
 18,'','Banff High School',51.179578,-115.569821
 19,'','Rabbit St East Side',51.18156,-115.567282
 20,'','Fox St East Side',51.183021,-115.562875
@@ -41,18 +41,18 @@
 105,'','Canmore Collegiate',51.097302,-115.363853
 106,'','Canmore Seniors Lodge',51.093899,-115.365438
 107,'','Canmore 9th St',51.0899925,-115.3615199
-108,'','Canmore Shopping Area',51.09059,-115.35555
-109,'','Canmore Benchlands',51.08858,-115.34699
+108,'','Canmore Shoppers Drug Mart',51.09059,-115.35555
+109,'','Canmore Benchlands Overpass South',51.08858,-115.34699
 110,'','Canmore Holiday Inn',51.092432,-115.345436
-500,'','Bow Mdws Cr',51.07670744,-115.3192181
-501,'','Canyon Close Northside',51.08193207,-115.3268384
+500,'','Glacier Dr South',51.078789,-115.321519
+501,'','Crossbow Pl South',51.061306,-115.326528
 502,'','Cougar Crk Skating Rink',51.08560195,-115.3264129
 503,'','Benchlands Roundabout',51.0864742,-115.3275757
 504,'','Summit Cafe Westside',51.08685614,-115.3310917
-505,'','Pioneer Rd',51.08515632,-115.335572
+505,'','Pioneer Rd',51.085079,-115.33548
 506,'','Blackrock Cr',51.08834622,-115.3370163
 507,'','Benchlands Bike Pk',51.09061078,-115.3428576
-508,'','Benchlands Overpass Westside',51.08861358,-115.3474661
+508,'','Benchlands Overpass North',51.08861358,-115.3474661
 509,'','Elevation Pl Northside',51.08884575,-115.3518272
 510,'','Canmore Shopping Area Southside',51.0905697,-115.3551735
 511,'','Canmore Shopping Area Northside',51.09293188,-115.3582356
@@ -61,9 +61,9 @@
 515,'','Propsect Hts Westside',51.07916281,-115.3654798
 516,'','Carey Westside',51.07463786,-115.365217
 517,'','Walker Westside',51.07099564,-115.3611547
-518,'','Miskow Close',51.05822637,-115.3256396
-519,'','Dyrgas Gt',51.05525782,-115.3223382
-520,'','Crossbow Pl',51.06146163,-115.3266133
+518,'','Miskow Close',51.058212,-115.325532
+519,'','Dyrgas Gt',51.055235,-115.322035
+520,'','Crossbow Pl North',51.06146163,-115.3266133
 521,'','Walker Eastside',51.07091731,-115.3608166
 522,'','Carey Eastside',51.0746495,-115.3649117
 523,'','Propsect Hts Eastside',51.07852019,-115.3650551
@@ -76,20 +76,13 @@
 530,'','Summit Cafe Eastside',51.08687941,-115.330887
 531,'','Benchlands Trl @ Elk Run',51.08669629,-115.3279914
 532,'','Lady Macdonald Cr',51.0833989,-115.326982
-533,'','Canyon Close Southside',51.0818094,-115.3268376
-534,'','Grotto Ter',51.0819506,-115.3235206
-535,'','Glacier Dr',51.07839654,-115.3213506
-536,'','Kananaskis Way South',51.08302609,-115.3413817
-537,'','Kananaskis Way North',51.08635193,-115.3447175
+533,'','Grotto Way',51.079977,-115.332304
+534,'','Grotto Rd',51.0822966,-115.329944
+535,'','Boulder Cr',51.078752,-115.327904
+536,'','Kananaskis Way',51.085705,-115.342088
+537,'','Three Sisters Pkwy At Dyrgas',51.055618,-115.32022
 538,'','Rundleview Dr',51.08061674,-115.3761393
 539,'','Canmore Nordic Ctr',51.09035017,-115.3849109
 540,'','Quarry Pk',51.07858131,-115.3730778
-601,'','Cascade Ponds',51.212093,-115.537332
-602,'','Minnewanka Pk & Ride',51.218215,-115.529881
-603,'','Johnson Lk Rd',51.212457,-115.501977
-604,'','Two Jack Lakeside Campground',51.222721,-115.500753
-605,'','Two Jack Main Campground',51.226772,-115.504252
-606,'','Two Jack Day Use Area',51.230689,-115.497972
-607,'','Lk Minnewanka',51.247584,-115.499932
-608,'','Lower Bankhead',51.232494,-115.524271
-609,'','Cascade Ponds/Banff Airstrip',51.211626,-115.537525
+541,'','Stewart Crk',51.050355,-115.313921
+542,'','Rdg Rd',51.083092,-115.32314
