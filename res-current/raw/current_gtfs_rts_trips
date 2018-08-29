@@ -1,12 +1,16 @@
-104,0,'Sulphur Mtn',1
-103,0,'Uptown Banff',1
-204,0,'Banff Spgs',2
-203,0,'Tunnel Mtn',2
+104,0,'Banff Gondola',1
+103,0,'Downtown',1
+203,0,'Campground',2
+204,0,'Fairmont Hotel',2
 303,0,'Banff',3
 304,0,'Canmore',3
-403,0,'Downtown Banff',4
-404,0,'Sulphur Mtn',4
-503,0,'Bow Mdws Cr',5
+403,0,'Banff Train Sta',4
+404,0,'Cave & Basin',4
 504,0,'Dyrgas Gt',5
-200503,0,'Canmore 9th st',2005
-200504,0,'Glacier Dr',2005
+503,0,'Glacier Dr',5
+604,0,'Banff',6
+603,0,'Minnewanka Lk',6
+200504,0,'Dyrgas Dr',2005
+200503,0,'Glacier Dr',2005
+1098102,0,'Banff',10981
+1098101,0,'Calgary',10981
