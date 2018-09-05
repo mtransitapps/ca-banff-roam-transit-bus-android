@@ -6,12 +6,13 @@ Schedule. News.
 ----------
 What's new in this version?:
 Schedule from May 18, 2018 to December 31, 2018.
+News from roamtransit.ca
 Tweets from @RoamTransit.
 ----------
 Full description:
 This app adds Banff Roam Transit buses information to MonTransit.
 
-This app provides the buses schedule as well as the latest news from @RoamTransit on Twitter.
+This app provides the buses schedule as well as the latest news from roamtransit.com and @RoamTransit on Twitter.
 
 Roam Transit buses serve Banff and Canmore in the Bow Valley in Alberta, Canada.
 
@@ -30,7 +31,7 @@ https://github.com/mtransitapps/ca-banff-roam-transit-bus-android
 This app is not related with Roam Public Transit and the Bow Valley Regional Transit Services Commission.
 
 Permissions:
-- Other: required to news from Twitter
+- Other: required to read news from roamtransit.com and Twitter.
 ----------
 Application type: Applications
 ----------
