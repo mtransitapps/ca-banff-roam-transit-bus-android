@@ -5,7 +5,7 @@ Banff Roam Transit Bus for MonTransit.
 Schedule. News.
 ----------
 What's new in this version?:
-Schedule from September 17, 2018 to December 31, 2018.
+Schedule from September 17, 2018 to May 16, 2019.
 News from roamtransit.ca
 Tweets from @RoamTransit.
 ----------
