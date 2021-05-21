@@ -4,9 +4,17 @@
 200,0,'Tunnel Mtn',2
 301,0,'Banff HS',3
 300,0,'Canmore 9th St',3
+400,0,'Cave & Basin',4
+401,0,'Downtown Banff',4
 501,0,'Cougar Crk',5
 500,0,'Three Sisters',5
+601,0,'Banff',6
+600,0,'Lk Minnewanka',6
+901,0,'Banff',9
+900,0,'Johnston Canyon',9
 1000201,0,'Sulphur Mtn',10002
 1000200,0,'Tunnel Mtn',10002
+1900801,0,'Banff',19008
+1900800,0,'Lk Louise',19008
 2400801,0,'Banff',24008
 2400800,0,'Lk Louise',24008
