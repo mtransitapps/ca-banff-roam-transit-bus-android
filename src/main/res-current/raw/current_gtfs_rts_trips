@@ -1,11 +1,16 @@
 100,0,'Banff Gondola',1
-101,0,'Downtown Banff',1
+101,0,'Banff Ind',1
 201,0,'Banff Spgs Hotel',2
 200,0,'Tunnel Mtn',2
 301,0,'Banff',3
 300,0,'Canmore',3
+400,0,'Cave & Basin',4
+401,0,'Downtown Banff',4
+601,0,'Banff',6
+600,0,'Lk Minnewanka',6
 901,0,'Banff',9
 900,0,'Johnston Canyon',9
+1200,0,'Downtown Canmore',12
 3000500,0,'Canmore',30005
 3000501,0,'Cougar Crk',30005
 20000500,0,'Three Sisters',200005
