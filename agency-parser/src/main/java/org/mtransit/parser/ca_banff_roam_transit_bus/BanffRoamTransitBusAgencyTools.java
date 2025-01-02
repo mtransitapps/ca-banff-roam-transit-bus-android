@@ -9,9 +9,9 @@ import org.mtransit.parser.mt.data.MAgency;
 
 import java.util.regex.Pattern;
 
-// http://www.banffopendata.ca/
-// https://roamtransit.com/wp-content/uploads/GTFS/GTFS.zip
-// http://data.trilliumtransit.com/gtfs/roamtransit-banff-ab-ca/roamtransit-banff-ab-ca.zip
+// https://maps.banff.ca/opendata/
+// OLD: https://roamtransit.com/wp-content/uploads/GTFS/GTFS.zip
+// OLD: https://data.trilliumtransit.com/gtfs/roamtransit-banff-ab-ca/roamtransit-banff-ab-ca.zip
 public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 
 	public static void main(@NotNull String[] args) {
