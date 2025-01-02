@@ -1,18 +1,7 @@
-100,0,'Banff Gondola',1
-101,0,'Banff Ind',1
-201,0,'Banff Spgs Hotel',2
-200,0,'Tunnel Mtn',2
-301,0,'Banff',3
-300,0,'Canmore',3
-400,0,'Cave & Basin',4
-401,0,'Downtown Banff',4
-601,0,'Banff',6
-600,0,'Lk Minnewanka',6
-901,0,'Banff',9
-900,0,'Johnston Canyon',9
-1200,0,'Grassi Lks Bound',12
-3000500,0,'Canmore',30005
-3000501,0,'Cougar Crk',30005
-20000500,0,'Three Sisters',200005
-24000801,0,'Banff',240008
-24000800,0,'Lk Louise',240008
+109,0,'Downtown',1
+209,0,'Campgrounds',2
+309,0,'Banff',3
+909,0,'JC To Banff',9
+3000509,0,'DT Canmore',30005
+20000509,0,'Three Sis',200005
+24000809,0,'Lk Louise',240008
