@@ -4,8 +4,10 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.Constants;
+import org.mtransit.commons.Letters;
 import org.mtransit.parser.DefaultAgencyTools;
 import org.mtransit.parser.mt.data.MAgency;
+import org.mtransit.parser.mt.data.MRouteSNToIDConverter;
 
 import java.util.regex.Pattern;
 
@@ -53,6 +55,16 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 			return 1000L;
 		default:
 			return super.convertRouteIdFromShortNameNotSupported(routeShortName);
+		}
+	}
+
+	@Override
+	public @Nullable Long convertRouteIdNextChars(@NotNull String nextChars) {
+		switch (nextChars) {
+		case "XG":
+			return MRouteSNToIDConverter.endsWith(Letters.X * 100L + Letters.G);
+		default:
+			return super.convertRouteIdNextChars(nextChars);
 		}
 	}
 
