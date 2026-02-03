@@ -6,6 +6,7 @@ import org.mtransit.commons.CleanUtils;
 import org.mtransit.commons.Constants;
 import org.mtransit.commons.Letters;
 import org.mtransit.parser.DefaultAgencyTools;
+import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.mt.data.MAgency;
 import org.mtransit.parser.mt.data.MRouteSNToIDConverter;
 
@@ -24,11 +25,6 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String getAgencyName() {
 		return "Roam Transit";
-	}
-
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
 	}
 
 	@NotNull
@@ -76,7 +72,7 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 		routeLongName = STARTS_WITH_ROUTE_RID.matcher(routeLongName).replaceAll(Constants.EMPTY);
 		routeLongName = CleanUtils.CLEAN_AND.matcher(routeLongName).replaceAll(CleanUtils.CLEAN_AND_REPLACEMENT);
 		routeLongName = CleanUtils.cleanStreetTypes(routeLongName);
-		return CleanUtils.cleanLabel(routeLongName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), routeLongName);
 	}
 
 	@Override
@@ -104,7 +100,7 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 	public String cleanTripHeadsign(@NotNull String tripHeadsign) {
 		tripHeadsign = CleanUtils.CLEAN_AND.matcher(tripHeadsign).replaceAll(CleanUtils.CLEAN_AND_REPLACEMENT);
 		tripHeadsign = CleanUtils.cleanStreetTypes(tripHeadsign);
-		return CleanUtils.cleanLabel(tripHeadsign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
 	private static final Pattern HIGH_SCHOOL_ = CleanUtils.cleanWords("high school");
@@ -112,12 +108,11 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 
 	private static final Pattern TRANSIT_HUB_ = CleanUtils.cleanWords("transit hub");
 
-	@NotNull
 	@Override
-	public String cleanDirectionHeadsign(int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
+	public @NotNull String cleanDirectionHeadsign(@Nullable GRoute gRoute, int directionId, boolean fromStopName, @NotNull String directionHeadSign) {
 		directionHeadSign = HIGH_SCHOOL_.matcher(directionHeadSign).replaceAll(HIGH_SCHOOL_REPLACEMENT);
 		directionHeadSign = TRANSIT_HUB_.matcher(directionHeadSign).replaceAll(Constants.EMPTY);
-		return super.cleanDirectionHeadsign(directionId, fromStopName, directionHeadSign);
+		return super.cleanDirectionHeadsign(gRoute, directionId, fromStopName, directionHeadSign);
 	}
 
 	@NotNull
@@ -126,6 +121,6 @@ public class BanffRoamTransitBusAgencyTools extends DefaultAgencyTools {
 		gStopName = CleanUtils.CLEAN_AND.matcher(gStopName).replaceAll(CleanUtils.CLEAN_AND_REPLACEMENT);
 		gStopName = CleanUtils.cleanNumbers(gStopName);
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
-		return CleanUtils.cleanLabel(gStopName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
 	}
 }
