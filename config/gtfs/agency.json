@@ -1,0 +1,7 @@
+{
+  "target_route_type_id": 3,
+  "default_color_enabled": true,
+  "default_color": "231F20",
+  "default_color_comment": "DARK GREY (from PNG logo)",
+  "default_strings_cleaner_enabled": true
+}
