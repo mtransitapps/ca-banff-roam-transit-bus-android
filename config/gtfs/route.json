@@ -1,0 +1,36 @@
+{
+  "default_route_id_enabled": true,
+  "use_route_short_name_for_route_id": true,
+  "route_short_name_to_route_id_configs": [
+    {
+      "route_short_name": "On-It",
+      "route_id": 1000
+    }
+  ],
+  "route_id_next_char_configs": [
+    {
+      "char": "XG",
+      "id_part": 24070000
+    }
+  ],
+  "route_long_name_cleaners": [
+    {
+      "regex": "(route [0-9]+[a-z]?( & [0-9]+)? (- )?)",
+      "ignore_case": true
+    }
+  ],
+  "direction_finder_enabled": true,
+  "direction_headsign_cleaners": [
+    {
+      "regex": "high school",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "HS"
+    },
+    {
+      "regex": "transit hub",
+      "ignore_case": true,
+      "is_word": true
+    }
+  ]
+}
