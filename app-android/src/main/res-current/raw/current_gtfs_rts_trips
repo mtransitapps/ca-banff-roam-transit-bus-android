@@ -1,10 +1,20 @@
-109,0,'Downtown',1
-209,0,'Campgrounds',2
-309,0,'Banff',3
-409,0,'Banff Dwntwn',4
-609,0,'Banff',6
-909,0,'Johnst Cnyn',9
-1209,0,'Grs Lakes',12
-3000509,0,'DT Canmore',30005
-20000509,0,'Three Sis',200005
-24000809,0,'Banff',240008
+1019,0,'Gondola',1
+1029,0,'Indust Area',1
+2019,0,'Campgrounds',2
+2029,0,'Fairmont',2
+3019,0,'Banff',3
+3029,0,'Canmore',3
+4019,0,'Banff Dwntwn',4
+4029,0,'Cave & Basin',4
+6029,0,'Banff',6
+6019,0,'Minnewanka',6
+9019,0,'Banff',9
+9029,0,'Johnst Cnyn',9
+12019,0,'Dwntwn',12
+12029,0,'Grs Lakes',12
+30005019,0,'Cougar Crk',30005
+30005029,0,'DT Canmore',30005
+200005019,0,'Canmore DT',200005
+200005029,0,'Three Sis',200005
+240008019,0,'Banff',240008
+240008029,0,'Lake Louise',240008
